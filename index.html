@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/estilos.css">
     <title>Document</title>
-
+    <script src="js/functions.js"></script>
 </head>
 <body>
     <p>Clientes cadastrados</p>
     <form action="">
-        <input type="button" value="Carregar">
+        <input type="button" value="Carregar" onclick="loadCustomers('tabCustomers')">
     </form>
-    <table>
+    <table id="tabCustomers">
         <tr>
             <th>Cliente</th>
             <th>Idade</th>
