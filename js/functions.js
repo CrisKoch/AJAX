@@ -1,6 +1,6 @@
 function loadCustomers(idTable) {
     let xhttp = new XMLHttpRequest();
-    let file = "../json/clientes.json";
+    let file = "https://github.com/CrisKoch/AJAX/blob/master/jason/clientes.jason";
 
     xhttp.onreadystatechange = function () {
         if ((xhttp.readyState == 4) && (xhttp.status == 200)) {
