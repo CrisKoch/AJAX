@@ -6,7 +6,7 @@ app.use(function(req, res, next) {
 
 function loadCustomers(idTable) {
     let xhttp = new XMLHttpRequest();
-    let file = "../jason/clientes.jason";
+    let file = "https://github.com/CrisKoch/AJAX/blob/master/jason/clientes.jason";
 
     xhttp.onreadystatechange = function () {
         if ((this.readyState == 4) && (this.status == 200)) {
