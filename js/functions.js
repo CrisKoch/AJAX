@@ -1,10 +1,12 @@
+
+
 function loadCustomers(idTable) {
     let xhttp = new XMLHttpRequest();
-    let file = "https://github.com/CrisKoch/AJAX/blob/master/jason/clientes.jason";
+    let file = "../jason/clientes.jason";
 
     xhttp.onreadystatechange = function () {
-        if ((xhttp.readyState == 4) && (xhttp.status == 200)) {
-            printCustomers(xhttp.responseText, idTable);
+        if ((this.readyState == 4) && (this.status == 200)) {
+            printCustomers(this.responseText, idTable);
 
         }
     }
