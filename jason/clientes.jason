@@ -1,1 +1,3 @@
-{"nome":"Cristina Kochmann", "idade":40}, 
+Access-Control-Allow-Origin: *
+
+{"nome":"Cristina Kochmann", "idade":40} 
